@@ -1,0 +1,15 @@
+TOPIC 20 — WINDOW FUNCTIONS
+
+Purpose
+Window functions calculate values across related rows without collapsing those rows into one row per group.
+
+In this example
+- PARTITION BY restarts the ranking for each department.
+- ORDER BY ranks higher salaries first.
+- RANK() assigns the same rank to ties and may leave gaps after ties.
+
+GROUP BY comparison
+GROUP BY normally returns one row per group; a window function keeps individual employee rows.
+
+Compatibility
+This example requires MySQL 8.0 or later.
