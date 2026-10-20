@@ -1,0 +1,14 @@
+TOPIC 12 — SUBQUERIES
+
+Purpose
+A subquery is a query nested inside another SQL statement.
+
+How it works here
+1. The inner query calculates the average salary.
+2. The outer query returns employees whose salary is greater than that average.
+
+When useful
+Subqueries are useful when one query needs a value or set of values calculated by another query.
+
+Try it
+Change `>` to `<` and explain which employees are returned.
