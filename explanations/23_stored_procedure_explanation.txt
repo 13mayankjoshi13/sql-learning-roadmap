@@ -1,0 +1,13 @@
+TOPIC 23 — STORED PROCEDURES
+
+Purpose
+A stored procedure is a named set of SQL statements stored in the database and invoked with CALL.
+
+What this demonstrates
+The procedure accepts a minimum salary parameter and returns employees at or above that amount.
+
+DELIMITER
+The MySQL client delimiter is changed temporarily so semicolons inside the procedure body do not end the CREATE PROCEDURE statement prematurely. The delimiter command is a client instruction, not ordinary SQL sent directly by every database API.
+
+Security note
+Use parameterized calls and least-privilege accounts in applications. Do not build dynamic SQL by concatenating untrusted input.
