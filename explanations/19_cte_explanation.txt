@@ -1,0 +1,13 @@
+TOPIC 19 — COMMON TABLE EXPRESSIONS
+
+Purpose
+A CTE, introduced with WITH, gives a name to a query result for use within the statement that follows.
+
+Why use one?
+CTEs can make complex SQL easier to read by separating a query into named logical steps.
+
+Compatibility
+This example requires MySQL 8.0 or later.
+
+Try it
+Extend the CTE to include the number of employees in each department.
