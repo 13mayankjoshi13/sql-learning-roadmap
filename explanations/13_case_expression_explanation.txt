@@ -1,0 +1,10 @@
+TOPIC 13 — CASE EXPRESSION
+
+Purpose
+CASE adds conditional logic to a query and returns a value for the first matching WHEN condition.
+
+In this example
+Each employee receives a salary-band label. The conditions are checked from top to bottom, so order matters.
+
+Try it
+Add a new band for salaries below 45,000 and consider where that condition should go.
