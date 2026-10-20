@@ -1,0 +1,22 @@
+TOPIC 02 — CREATE TABLES
+
+Purpose
+Tables store data in rows and columns.
+
+Important column rules
+- INT stores whole numbers.
+- VARCHAR(n) stores text up to a declared length.
+- DECIMAL(10,2) stores exact decimal values, useful for money.
+- DATE stores a calendar date.
+- PRIMARY KEY uniquely identifies each row.
+- AUTO_INCREMENT generates numeric IDs.
+- NOT NULL requires a value.
+- UNIQUE prevents duplicate non-NULL values.
+- DEFAULT supplies a value when one is omitted.
+- FOREIGN KEY links a column to a key in another table.
+
+Expected result
+DESCRIBE displays the structure of `employees`.
+
+Try it
+Add a `job_title VARCHAR(80)` column to a practice table using ALTER TABLE.
