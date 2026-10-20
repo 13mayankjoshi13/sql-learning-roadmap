@@ -1,0 +1,15 @@
+TOPIC 15 — DATE FUNCTIONS
+
+Purpose
+Date functions extract date parts and calculate intervals.
+
+Functions used
+- CURRENT_DATE returns today's date.
+- YEAR() extracts the year.
+- DATEDIFF(date1, date2) returns the number of days from date2 to date1.
+
+Expected result
+Each employee is shown with their hiring date, hiring year, and approximate number of days since hiring.
+
+Note
+The days-since-hire value changes over time.
