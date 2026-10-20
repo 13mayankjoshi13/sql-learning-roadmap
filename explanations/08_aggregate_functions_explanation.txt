@@ -1,0 +1,16 @@
+TOPIC 08 — AGGREGATE FUNCTIONS
+
+Purpose
+Aggregate functions calculate a summary from multiple rows.
+
+Functions
+- COUNT(*) counts rows.
+- AVG() calculates an average.
+- MIN() and MAX() find the smallest and largest values.
+- SUM() adds numeric values.
+
+Expected result
+One row containing the employee count and salary statistics.
+
+Note
+Most aggregate functions ignore NULL values in the target column; COUNT(*) counts rows regardless of NULL values.
