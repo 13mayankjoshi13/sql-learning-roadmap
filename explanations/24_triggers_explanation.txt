@@ -1,0 +1,14 @@
+TOPIC 24 — TRIGGERS
+
+Purpose
+A trigger runs automatically when a specified table event occurs.
+
+In this example
+An AFTER UPDATE trigger records salary changes in an audit table.
+
+OLD and NEW
+- OLD refers to the row values before the update.
+- NEW refers to the row values after the update.
+
+Operational caution
+Triggers add hidden behavior to writes, so document them and test them carefully. This script creates a trigger but leaves the test UPDATE commented out.
