@@ -1,0 +1,12 @@
+TOPIC 10 — INNER JOIN
+
+Purpose
+JOIN combines related rows from two tables.
+
+INNER JOIN returns rows where the join condition matches on both sides. Here, an employee appears only if their department ID matches a department row.
+
+Aliases
+`employees AS e` and `departments AS d` shorten table names and make queries easier to read.
+
+Try it
+Add `d.department_name = 'Engineering'` to the WHERE clause.
