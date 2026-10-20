@@ -1,0 +1,13 @@
+TOPIC 14 — STRING FUNCTIONS
+
+Purpose
+String functions transform or inspect text values.
+
+Functions used
+- UPPER() converts text to uppercase.
+- LOWER() converts text to lowercase.
+- CHAR_LENGTH() counts characters.
+- CONCAT() joins text pieces into one string.
+
+Try it
+Use SUBSTRING() to display only the first five characters of each name.
