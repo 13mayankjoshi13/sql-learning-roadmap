@@ -1,0 +1,13 @@
+TOPIC 27 — SQL INJECTION SAFETY
+
+Purpose
+SQL injection occurs when untrusted input is interpreted as part of a SQL command.
+
+Core defence
+Use prepared statements / parameterized queries in application code. Do not create SQL by concatenating user-provided strings.
+
+Important distinction
+Escaping alone is easy to get wrong and should not replace parameterization. Also validate authorization and input expectations; parameterization prevents injection but does not automatically make an action authorized.
+
+Cybersecurity practice
+When learning this topic, use a deliberately vulnerable local lab and test only systems you own or are explicitly authorized to assess.
