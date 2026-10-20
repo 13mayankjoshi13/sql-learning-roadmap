@@ -1,0 +1,14 @@
+TOPIC 09 — GROUP BY AND HAVING
+
+Purpose
+GROUP BY creates groups so aggregate functions can calculate values per group. HAVING filters those groups after aggregation.
+
+Why LEFT JOIN?
+It allows departments with no employees to remain in the joined result. The HAVING condition in this example then shows only departments with at least one employee.
+
+WHERE versus HAVING
+- WHERE filters individual rows before grouping.
+- HAVING filters groups after aggregation.
+
+Try it
+Remove the HAVING clause and observe what changes if you add an empty department.
