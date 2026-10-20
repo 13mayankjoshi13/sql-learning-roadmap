@@ -1,0 +1,13 @@
+TOPIC 22 — EXISTS
+
+Purpose
+EXISTS tests whether a subquery returns at least one row.
+
+In this example
+The query returns only departments with at least one matching employee.
+
+Why SELECT 1?
+EXISTS checks whether a row exists; it does not need the subquery to return a particular column value.
+
+Try it
+Use NOT EXISTS to find departments without employees.
