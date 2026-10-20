@@ -1,0 +1,18 @@
+TOPIC 03 — INSERT DATA
+
+Purpose
+INSERT adds new rows to a table.
+
+Why columns are named explicitly
+`INSERT INTO employees (full_name, email, ...)` makes the mapping clear and avoids depending on the table's physical column order.
+
+What the sample demonstrates
+- Multiple rows can be inserted in one statement.
+- A subquery can look up the department ID by department name.
+- The duplicate-key clause makes this seed script easier to rerun in MySQL.
+
+Expected result
+Three departments and three sample employees should be visible.
+
+Note
+`VALUES()` in the duplicate-key update syntax is deprecated in newer MySQL releases but remains supported in many MySQL 8.0 versions. For production code, use the current MySQL syntax supported by your installed version.
