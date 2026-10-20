@@ -1,0 +1,13 @@
+TOPIC 26 — DATABASE PERMISSIONS
+
+Purpose
+Database accounts and privileges control which actions a user can perform.
+
+Principle of least privilege
+Give an account only the permissions needed for its task. A reporting account may need SELECT but not INSERT, UPDATE, DELETE, or schema administration.
+
+Why commands are commented out
+Creating users and granting privileges changes server security configuration. Review the host, account name, password policy, and target database before enabling the commands.
+
+Production note
+Use secret management and your organization's account lifecycle process rather than committing real passwords to Git.
