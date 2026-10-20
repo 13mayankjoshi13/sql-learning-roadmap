@@ -1,0 +1,13 @@
+TOPIC 11 — LEFT JOIN
+
+Purpose
+LEFT JOIN returns every row from the left table and matching rows from the right table. If there is no match, right-table columns are NULL.
+
+In this query
+Every department appears, including any department without employees.
+
+INNER JOIN comparison
+INNER JOIN drops unmatched left-side rows; LEFT JOIN preserves them.
+
+Try it
+Add another department without adding an employee, then run this query again.
