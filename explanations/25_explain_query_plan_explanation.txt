@@ -1,0 +1,13 @@
+TOPIC 25 — EXPLAIN QUERY PLAN
+
+Purpose
+EXPLAIN shows how MySQL plans to execute a query.
+
+What to inspect
+Depending on the MySQL version and query, output can include the access type, possible keys, chosen key, estimated rows, and extra operations.
+
+Why it matters
+EXPLAIN helps you investigate slow queries and decide whether an index or query rewrite might help. An index is not automatically beneficial for every query.
+
+Try it
+Compare the plan before and after creating an appropriate index. Use realistic data volumes before drawing performance conclusions.
