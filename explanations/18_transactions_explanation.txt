@@ -1,0 +1,15 @@
+TOPIC 18 — TRANSACTIONS
+
+Purpose
+A transaction groups changes so they can be committed together or rolled back.
+
+Commands
+- START TRANSACTION begins a transaction.
+- COMMIT permanently saves transactional changes.
+- ROLLBACK discards uncommitted transactional changes.
+
+What this example shows
+The salary is temporarily increased by 100, then ROLLBACK restores the previous value.
+
+Important
+Transactions work as expected for transactional storage engines such as InnoDB. DDL statements may cause implicit commits in MySQL, so avoid mixing schema changes into a transaction lesson.
