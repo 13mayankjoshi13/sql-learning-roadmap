@@ -1,0 +1,16 @@
+TOPIC 05 — ORDER BY AND LIMIT
+
+Purpose
+ORDER BY sorts results; LIMIT restricts the number of rows returned.
+
+Key points
+- ASC sorts from low to high or oldest to newest.
+- DESC sorts from high to low or newest to oldest.
+- LIMIT 2 returns at most two rows.
+- If ties matter, add a second sort column to make ordering predictable.
+
+Expected result
+The first query returns the two highest-paid employees. The second sorts employees by hiring date.
+
+Try it
+Show the single earliest-hired employee.
