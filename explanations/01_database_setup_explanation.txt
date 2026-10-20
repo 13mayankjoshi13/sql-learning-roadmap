@@ -1,0 +1,15 @@
+TOPIC 01 — DATABASE SETUP
+
+Purpose
+A database is a container for related tables and other database objects.
+
+What the SQL does
+- CREATE DATABASE IF NOT EXISTS creates the database only if it does not already exist.
+- USE selects the database for subsequent statements.
+- SELECT DATABASE() shows which database is currently selected.
+
+Expected result
+The final query returns `sql_learning`.
+
+Try it
+Run `USE sql_learning;` and check the current database again.
