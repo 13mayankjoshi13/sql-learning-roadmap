@@ -1,0 +1,12 @@
+TOPIC 17 — VIEWS
+
+Purpose
+A view is a named query that can be queried like a table. It normally stores the query definition, not a separate copy of the result rows.
+
+Why use a view?
+- Reuse a common query.
+- Present a simpler data shape to users.
+- Limit which columns are exposed through a particular database interface.
+
+Security note
+A view alone does not replace a complete permissions design. Grant users only the access they need.
