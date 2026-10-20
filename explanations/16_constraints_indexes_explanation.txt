@@ -1,0 +1,17 @@
+TOPIC 16 — CONSTRAINTS AND INDEXES
+
+Purpose
+Constraints protect data integrity. Indexes can help MySQL find rows more efficiently.
+
+Examples already in the schema
+- PRIMARY KEY: unique row identifier.
+- UNIQUE: prevents duplicate values.
+- NOT NULL: requires a value.
+- DEFAULT: supplies a fallback value.
+- FOREIGN KEY: enforces a relationship to a referenced key.
+
+Index note
+Indexes consume storage and add work to inserts, updates, and deletes. Add them based on query patterns and verify performance with EXPLAIN rather than indexing every column automatically.
+
+Rerunning
+CREATE INDEX may fail if the index already exists. Check SHOW INDEX first or drop the index before recreating it.
