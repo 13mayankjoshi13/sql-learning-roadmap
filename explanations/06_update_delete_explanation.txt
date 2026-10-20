@@ -1,0 +1,13 @@
+TOPIC 06 — UPDATE AND DELETE
+
+Purpose
+UPDATE changes existing rows. DELETE removes rows.
+
+Critical safety habit
+Always test the WHERE condition with SELECT before running UPDATE or DELETE. Without a WHERE clause, an UPDATE may change every row and a DELETE may remove every row from the table.
+
+What this file does
+It previews and updates one sample employee. The destructive DELETE example is commented out intentionally.
+
+Try it
+Write a SELECT that identifies the employee you want to change before drafting an UPDATE.
