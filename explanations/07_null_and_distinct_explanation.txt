@@ -1,0 +1,15 @@
+TOPIC 07 — NULL AND DISTINCT
+
+Purpose
+NULL represents missing or unknown data; it is not the same as zero or an empty string.
+
+Key points
+- Use `IS NULL` and `IS NOT NULL`, not `= NULL`.
+- DISTINCT removes duplicate result rows.
+- A column can contain NULL unless constrained otherwise.
+
+Expected result
+The first query lists each department ID present in the employee table once. The next queries find rows with missing or present email values.
+
+Try it
+Find employees who have no department assigned.
