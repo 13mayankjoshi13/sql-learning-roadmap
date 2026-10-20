@@ -1,0 +1,16 @@
+TOPIC 04 — SELECT AND WHERE
+
+Purpose
+SELECT reads data. WHERE filters rows before they are returned.
+
+Key points
+- List only the columns you need instead of always using `SELECT *`.
+- `>=` means greater than or equal to.
+- AND requires both conditions to be true.
+- Text values use single quotes.
+
+Expected result
+The first query returns names and salaries for all employees. The later queries return only rows matching their filters.
+
+Try it
+Find employees whose salary is below 55,000.
