@@ -1,0 +1,13 @@
+TOPIC 21 — UNION
+
+Purpose
+UNION combines the result rows of compatible SELECT statements.
+
+Key points
+- Each SELECT must return the same number of columns.
+- Corresponding columns should have compatible data types.
+- UNION removes duplicate result rows.
+- UNION ALL keeps duplicates and is often faster when deduplication is unnecessary.
+
+Try it
+Change UNION to UNION ALL and consider whether duplicate rows are possible in this example.
